@@ -20,4 +20,6 @@ RUN ./start.sh
 
 ADD eula.txt eula.txt
 
+EXPOSE 25565
+
 CMD ["sh", "start.sh"]
