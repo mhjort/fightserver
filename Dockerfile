@@ -20,6 +20,8 @@ RUN ./start.sh
 
 ADD eula.txt eula.txt
 
+ADD server.properties server.properties
+
 EXPOSE 25565
 
 CMD ["sh", "start.sh"]
