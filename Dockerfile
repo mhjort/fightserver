@@ -22,6 +22,10 @@ ADD eula.txt eula.txt
 
 ADD server.properties server.properties
 
+ADD world world
+
+ADD world_nether world_nether
+
 EXPOSE 25565
 
 CMD ["sh", "start.sh"]
