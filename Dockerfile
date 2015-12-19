@@ -26,6 +26,8 @@ ADD world world
 
 ADD world_nether world_nether
 
+ADD Lobby.jar plugins/Lobby.jar
+
 EXPOSE 25565
 
 CMD ["sh", "start.sh"]
