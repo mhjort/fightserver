@@ -30,6 +30,8 @@ ADD Lobby.jar plugins/Lobby.jar
 
 ADD MinigamesParty.jar plugins/MinigamesParty.jar
 
+ADD ops.txt ops.txt
+
 EXPOSE 25565
 
 CMD ["sh", "start.sh"]
