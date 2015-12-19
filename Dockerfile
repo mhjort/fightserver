@@ -30,6 +30,8 @@ ADD Lobby.jar plugins/Lobby.jar
 
 ADD MinigamesParty.jar plugins/MinigamesParty.jar
 
+ADD Project_HungerGames.jar plugins/Project_HungerGames.jar
+
 ADD ops.json ops.json
 
 EXPOSE 25565
