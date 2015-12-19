@@ -30,7 +30,7 @@ ADD Lobby.jar plugins/Lobby.jar
 
 ADD MinigamesParty.jar plugins/MinigamesParty.jar
 
-ADD ops.txt ops.txt
+ADD ops.json ops.json
 
 EXPOSE 25565
 
