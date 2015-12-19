@@ -28,6 +28,8 @@ ADD world_nether world_nether
 
 ADD Lobby.jar plugins/Lobby.jar
 
+ADD MinigamesParty.jar plugins/MinigamesParty.jar
+
 EXPOSE 25565
 
 CMD ["sh", "start.sh"]
